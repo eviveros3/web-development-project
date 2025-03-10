@@ -91,3 +91,11 @@ form button {
 form button:hover { 
     background-color: #575757; 
 } 
+#errorMsg { 
+    color: red; 
+    margin-top: 10px; 
+} 
+ 
+#errorMsg p { 
+    margin: 0; 
+} 
