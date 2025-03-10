@@ -1,0 +1,88 @@
+body { /*Defines the background color, font type, and font color*/ 
+    background: linear-gradient(to left, #414444, #444141, black );
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    margin: 0; 
+    padding: 0; 
+} 
+.logo{
+    width: 150px;
+    height: auto;
+}
+ 
+
+nav ul li { /*makes navigation bar align horizontally*/ 
+    display: inline; 
+    margin-right: 10px; 
+} 
+ 
+nav ul li a { /*makes navigation bar text white and removes underline */ 
+    color: white; 
+    text-decoration: none; 
+    padding: 10px; 
+} 
+ 
+nav ul li a:hover {  /*when mouse hovers over a navigation bar element, a blue box appears behind*/ 
+    background-color: #20b0df;
+} 
+.homePic{
+    float: right;
+    margin-left: 20px;
+    width: 300px;
+    height: auto;
+}
+.header-text{ /**/ 
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 10%;
+}
+.header-text h1{
+    font-size: 45px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #20b0df;
+}
+header, section { 
+    padding: 20px; 
+} 
+ 
+.about_Photo { 
+    float: left; 
+    margin-right: 20px; 
+    width: 300px; 
+    height: auto; 
+} 
+ 
+.bio { 
+    overflow: hidden; 
+} 
+ 
+form { 
+    display: flex; 
+    flex-direction: column; 
+} 
+ 
+form label { 
+    margin-top: 10px; 
+} 
+ 
+form input, form textarea { 
+    margin-top: 5px; 
+    padding: 10px; 
+    width: 100%; 
+    max-width: 500px; 
+} 
+ 
+form button { 
+    margin-top: 10px; 
+    padding: 10px; 
+    background-color: #333; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+} 
+ 
+form button:hover { 
+    background-color: #575757; 
+} 
