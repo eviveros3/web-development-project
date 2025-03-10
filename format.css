@@ -52,9 +52,16 @@ header, section {
     height: auto; 
 } 
  
-.bio { 
+.bio { /*stops text from clipping and hides scrollbar */
     overflow: hidden; 
 } 
+.bio h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.bio p{
+    font-size: 25px;
+}
  
 form { 
     display: flex; 
