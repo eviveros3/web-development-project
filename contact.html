@@ -20,13 +20,28 @@
             <label for="name">Name:</label> 
             <input type="text" id="name" name="name" required> 
             <label for="email">Email:</label> 
-                       <input type="email" id="email" name="email" required> 
+            <input type="email" id="email" name="email" required> 
             <label for="message">Message:</label> 
             <textarea id="message" name="message" required></textarea> 
             <button type="submit">Send</button> 
-        </form> 
-        <div id="errorMsg"></div> 
+        </form>    
     </section> 
+    
+    <div id="errorMsg"></div> 
+    <div id="successMsg"></div>
+
+    <!-- script for sending completed form to my email using emailjs -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+            publicKey: "muPVIkZbznF0XqB-T",
+          });
+        })();
+    </script>
+
     <script src="scripts.js"></script> 
 </body> 
 </html> 
